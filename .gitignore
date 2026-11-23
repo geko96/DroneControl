@@ -1,0 +1,40 @@
+# dependencias
+/node_modules
+
+# Next.js
+/.next/
+/out/
+next-env.d.ts
+
+# build
+/build
+/dist
+*.tsbuildinfo
+
+# variables de entorno (dejar versionado solo el ejemplo)
+.env*
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# despliegue
+.vercel
+
+# tests
+/coverage
+
+# sistema y editor
+.DS_Store
+Thumbs.db
+*.pem
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ajustes locales de Claude Code
+.claude/settings.local.json
